@@ -1,0 +1,55 @@
+Enter file contents here
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ModuleOne
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string firstname, lastname, birthday, address1, address2, city, province, country;
+            string degree, program, prof, univ;
+            Console.WriteLine("Please input your first name");
+            firstname = Console.ReadLine();
+            Console.WriteLine("Please input your last name");
+            lastname=Console.ReadLine();
+            Console.WriteLine("When is your birthday?");
+            birthday = Console.ReadLine();
+            Console.WriteLine("What's your address 1?");
+            address1 = Console.ReadLine();
+            Console.WriteLine("What's your address 2?");
+            address2 = Console.ReadLine();
+            Console.WriteLine("What city do you live in?");
+            city = Console.ReadLine();
+            Console.WriteLine("What province does that locate in?");
+            province = Console.ReadLine();
+            Console.WriteLine("What contury do you live in?");
+            country = Console.ReadLine();
+            Console.WriteLine("What's your university degree? Bachelor or Master?");
+            degree = Console.ReadLine();
+            Console.WriteLine("What's the university you study in?");
+            univ = Console.ReadLine();
+            Console.WriteLine("What's your university program?");
+            program = Console.ReadLine();
+            Console.WriteLine("Who's the Professor of the program?");
+            prof = Console.ReadLine();
+            // That's all input
+            Console.WriteLine();
+            Console.WriteLine("First name:" + firstname);
+            Console.WriteLine(" Last name:" + lastname);
+            Console.WriteLine("Birthday  :" + birthday);
+            Console.WriteLine("Address 1 :" + address1);
+            Console.WriteLine("Address 2 :" + address2);
+            Console.WriteLine("Location  :" + city + "," + province + "," + country);
+            Console.WriteLine("University:" + univ);
+            Console.WriteLine("Degree    :" + degree);
+            Console.WriteLine("Program   :" + program);
+            Console.WriteLine("Professor :" + prof);
+            Console.WriteLine("That's all your information ^_^");
+        }
+    }
+}
